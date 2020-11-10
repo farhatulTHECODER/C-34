@@ -7,7 +7,28 @@
 <script src="./p5.play.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
 
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAaqmU-KmomMkbsNijSbKMFSVWcfabM0ps",
+    authDomain: "multiplayercarracing-gam-783fc.firebaseapp.com",
+    databaseURL: "https://multiplayercarracing-gam-783fc.firebaseio.com",
+    projectId: "multiplayercarracing-gam-783fc",
+    storageBucket: "multiplayercarracing-gam-783fc.appspot.com",
+    messagingSenderId: "512230300619",
+    appId: "1:512230300619:web:2856f9db2db8566af5b44e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </head>
   <body>
       <script src="sketch.js"></script>
